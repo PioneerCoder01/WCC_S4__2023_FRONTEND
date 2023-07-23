@@ -254,6 +254,10 @@
     height: fit-content;
   }
 
+  .menuToggle nav ul li {
+    font-size: 1.5rem;
+}
+
  img.plat {
      top: -10rem;
      right: -14.5rem;
