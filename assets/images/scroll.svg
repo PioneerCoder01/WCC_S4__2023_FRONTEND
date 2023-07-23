@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39.88" height="82.341" viewBox="0 0 39.88 82.341">
+  <g id="Groupe_4" data-name="Groupe 4" transform="translate(-972 -781)">
+    <text id="scroll" transform="translate(978 781) rotate(90)" fill="#fff" font-size="22" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">scroll</tspan></text>
+    <g id="Groupe_3" data-name="Groupe 3">
+      <line id="Ligne_1" data-name="Ligne 1" x2="49" transform="translate(1007.5 812.5) rotate(90)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="arrow" d="M5.38,9.773l3.2-3.134a.365.365,0,0,1,.513,0l.56.56a.365.365,0,0,1,0,.518L5.638,11.708a.365.365,0,0,1-.516,0L1.109,7.72a.365.365,0,0,1,0-.518l.56-.56a.365.365,0,0,1,.513,0Z" transform="translate(1002.12 851.526)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

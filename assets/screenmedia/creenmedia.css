@@ -1,0 +1,356 @@
+@media (max-width: 1180px){
+    .container {
+            width: 90%;
+    }
+
+    header>.right {
+        gap: 5rem;
+    }
+    header>.right .navigation {
+        gap: 2rem;
+    }
+
+    header .auth button {
+        background: none;
+        padding: 0.3rem 1.3rem;
+    }
+    header .search {
+        padding: 0.3rem 0.4rem;
+    }
+
+    header .search input {
+        width: 10rem;
+    }
+    .main-section .right .img1 {
+        width: 30rem;
+        top: 0;
+        left: -2.6rem;
+    }
+
+    .main-section .right .img2 {
+        width: 4.8rem;
+        top: 3rem;
+        left: -2rem;
+    }
+
+    .main-section .right .img3 {
+        width: 4.8rem;
+        bottom: -3rem;
+        left: 12.6rem;
+    }
+
+    .main-section .right .img4 {
+        width: 5.5rem;
+        top: 3rem;
+        left: 13rem;
+    }
+
+    .main-section .right .img5 {
+        width: 5.6rem;
+        bottom: -2rem;
+        left: -1rem;
+    }
+   .bottom-section {
+    margin-top: 7rem;
+   }
+
+    .bottom-section .right>div {
+        padding: 0.5rem;
+    }
+    .bottom-section .right h6 {
+        font-size: 1rem;
+    }
+
+    .bottom-section .right h5 {
+        font-size: 0.8rem;
+    }
+   .bottom-section .right>.bottom {
+    display: flex;
+    gap: 1.2rem;
+}
+   .bottom-section .right>.bottom img {
+    width: 4rem;
+}
+    .bottom-section .right .about {
+    gap: 0.2rem;
+}
+.bottom-section .right .price span {
+    font-size: 1.2rem;
+}
+    .bottom-section .right>.bottom .about img {
+    width: 1rem;
+}
+.bottom-section .right>.bottom div.time {
+    padding: 0.4rem;
+}
+.montre {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+}
+.montre .round {
+    height: 0.1rem;
+    width: 0.1rem;
+}
+
+.montre .seconde {
+    height: 0.4rem;
+}
+
+.bottom-section .left {
+    padding: 0.4rem 1.1rem;
+}
+.bottom-section .left>div:nth-child(2)>span {
+    margin-bottom: 0.6rem;
+}
+}
+
+
+@media (max-width: 950px) {
+    header nav{
+        display: none;
+    }
+    header .auth button:nth-child(1) {
+    border-color: #bdbdbd;
+    color: #bdbdbd;
+}
+
+.bottom-section .middle{
+    display: none;
+}
+
+
+    .main-section .right .img1 {
+        width: 25rem;
+        top: 0;
+        left: -2.6rem;
+    }
+
+    .main-section .right .img3 {
+        width: 4.8rem;
+        bottom: 0;
+        left: 11rem;
+    }
+
+    .main-section .right .img5 {
+        width: 5.6rem;
+        bottom: 0;
+        left: -1rem;
+    }
+
+    .main-section .left h4 {
+        font-size: 2rem;
+    }
+  .main-section .left h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+  }
+  .main-section .left .wave {
+      width: 2rem;
+  }
+  .main-section>.left {
+      padding-left: 1.8rem;
+  }
+  .main-section .left p {
+      margin-bottom: 2.3rem;
+    }
+  .main-section .left .bottom .left span:nth-child(2) {
+    font-size: 1.6rem;
+}
+
+.main-section .left .bottom .btn {
+    padding: 0.5rem 1.3rem;
+    height: 2.4rem;
+    width: 8rem;
+}
+.main-section .left .bottom .btn>div:nth-child(1) {
+    left: 0.5rem;
+    top: 0.5rem;
+    height: 2.3rem;
+    width: 2.3rem;
+}
+.main-section .left .bottom .btn>.svg-icon {
+    left: 0.5rem;
+    top: 0.5rem;
+    height: 2.3rem;
+    width: 2.3rem;
+}
+.main-section .left .bottom .btn svg {
+    width: 1.2rem;
+}
+.main-section .left .bottom .btn:hover>div:nth-child(1) {
+    width: 9rem;
+}
+.main-section .left .bottom .btn .buy {
+    right: 2rem;
+}
+}
+
+@media (max-width: 800px){
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: fit-content;
+        max-width: 800px;
+    }
+    .container{
+        overflow: hidden;
+    }
+   header .left, header .right{
+    display: none;
+   }
+    header .menu{
+        display: block;
+        height: 3rem;
+        width: 3rem;
+        cursor: pointer;
+    }
+    header .menu svg{
+        width: 2.5rem;
+        }
+
+        .main-section .right{
+            display: none;
+        }
+   .bottom-section{
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 70%;
+    margin: 2rem auto;
+}
+ .bottom-section .right>div {
+     padding: 1rem;
+     color: #bdbdbd;
+ }
+
+ .bottom-section .right>.top .navig>div span#next {
+     color: #fff;
+ }
+
+ img.plat {
+     position: absolute;
+     display: block;
+     top: -6rem;
+     right: -10rem;
+     width: 35rem;
+     z-index: -1;
+ }
+  .plat-cotent {
+      display: block;
+      position: absolute;
+      width: 35rem;
+      height: 35rem;
+      top: 0;
+      right: 0;
+      overflow: hidden;
+      z-index: -1;
+  }
+}
+
+@media (max-width: 600px){
+  body{
+    background: url("../images/mobilebg.png") no-repeat center;
+    background-size: cover;
+    height: fit-content;
+  }
+
+ img.plat {
+     top: -10rem;
+     right: -14.5rem;
+     width: 35rem;
+ }
+ /* .plat-cotent{
+    display: block;
+    position: absolute;
+    width: 35rem;
+    height: 35rem;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+ } */
+ img.lamba{
+    display: none;
+ }
+
+ header .menu svg path{
+    fill: #fff;
+ }
+
+ .main-section{
+    margin-top: 10rem;
+    padding-left: 1rem;
+ }
+
+  .main-section>.left {
+      padding-left: 0;
+  }
+
+  .container{
+    width: 98%;
+  }
+
+ .main-section .left .bottom .btn {
+     padding: 0.6rem 1.6rem;
+     height: 2.7rem;
+     width: 10rem;
+     border-radius: 2rem;
+ }
+
+ .main-section .left .bottom .btn>div:nth-child(1) {
+     left: 0.6rem;
+     top: 0.6rem;
+     height: 2.5rem;
+     width: 2.5rem;
+ }
+
+ .main-section .left .bottom .btn>.svg-icon {
+     left: 0.6rem;
+     top: 0.6rem;
+     height: 2.5rem;
+     width: 2.5rem;
+
+ }
+ .main-section .left .bottom .btn:hover>div:nth-child(1) {
+     width: 11.7rem;
+ }
+ .main-section .left .bottom .btn svg {
+     width: 1.5rem;
+ }
+
+    .main-section .left h4 {
+        font-size: 2.7rem;
+        color: #fff;
+    }
+
+    .main-section .left h3 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        color: #bdbdbd;
+    }
+        .main-section .left p span {
+            color: #bdbdbd;
+        }
+
+    .main-section .left .wave {
+        width: 2rem;
+    }
+ .main-section .left .wave {
+    width: 2.5rem;
+ }
+  .main-section .left .bottom span#price{
+    color: #bdbdbd;
+  }
+.bottom-section .left .cta span#types{
+        color: #2f2f2f;
+    }
+.bottom-section .left .cta svg path{
+    fill: #2f2f2f;
+}
+  .bottom-section > .right>.bottom{
+    justify-content: space-between;
+  }
+
+.bottom-section {
+    width: 90%;
+}
+}
