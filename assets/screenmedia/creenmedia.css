@@ -258,6 +258,10 @@
     font-size: 1.5rem;
 }
 
+.menuToggle nav{
+    margin-top: 6rem;
+}
+
  img.plat {
      top: -10rem;
      right: -14.5rem;
